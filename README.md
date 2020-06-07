@@ -170,7 +170,7 @@ ActiveRecord::Base.connection.execute(sql)
 
 Using migrations, we will still need establish Active Record's connection to the
 database, but **_we no longer need the SQL!_** Instead of dealing with SQL
-directly, we provide the migrations body (in Ruby) and Active Record takes care of creating 
+directly, we provide the migrations body (in Ruby) and Active Record takes care of creating
 complex SQL commands. This is less error-prone and _much easier_ to read.
 
 As a bonus, migrations, when paired with version control (`git`), create a record of changes
@@ -411,7 +411,7 @@ reality, our two-digit system is very rudimentary. As you'll see later on,
 frameworks like Rails have generators that create migrations with very accurate
 timestamps, so you'll never have to worry about hand-numbering.
 
-Now that you've saved the migration, go back to the terminal to run 
+Now that you've saved the migration, go back to the terminal to run
 `rake db:migrate`.
 
 Awesome! Now go back to the console with the `rake console` command, and check
